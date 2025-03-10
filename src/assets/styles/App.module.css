@@ -1,0 +1,12 @@
+.App {
+  margin-top: 10px;
+}
+
+.Logo {
+  width: 15%;
+  height: auto;
+  right: 10px;
+  top: 10px;
+  position: absolute; 
+}
+
