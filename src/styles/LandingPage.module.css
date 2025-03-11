@@ -1,0 +1,60 @@
+/* LandingPage Styling */
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.Container {
+  padding-top: 250px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Avatar {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px #153943 solid;
+	border-radius: 25%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.5);
+	animation: float 6s ease-out infinite;
+  animation-delay: 1200ms;
+	img { width: 100%; height: auto; }
+}
+
+.Content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.Socials a{
+  padding: 15px;
+  color: #153943;
+  font-size: x-large;
+}
+
+.Socials a:hover{
+  opacity: 0.8;
+}
+
+.Socials {
+  margin-top: 20px;
+}
