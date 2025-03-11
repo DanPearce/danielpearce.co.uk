@@ -1,0 +1,22 @@
+/* NavBar Styling */
+.NavBar {
+  background-color: #1c1413;
+}
+
+.NavBar a {
+  color: #fefdfd;
+}
+
+.NavBar a:hover{
+  color: #153943;
+}
+
+.Logo {
+  width: 25%;
+  height: auto;
+}
+
+.NavLink {
+  padding: 15px;
+  text-decoration: none;
+}
