@@ -6,7 +6,6 @@ import LandingPage from './pages/LandingPage';
 import Projects from './pages/projects/Projects';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
             <Route path='/projects' element={<Projects />} />
             <Route path='/aboutme' element={<AboutMe />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/resume' element={<Resume />} />
           </Routes>
         </Container>
     </div>

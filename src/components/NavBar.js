@@ -1,6 +1,7 @@
 import React from 'react'
 import header from '../assets/DANPEARCE.png';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -28,7 +29,7 @@ const NavBar = () => {
             <NavLink to="/aboutme" className={styles.NavLink}><i class="fa-solid fa-address-card"></i> About Me</NavLink>
             <NavLink to="/projects" className={styles.NavLink}><i class="fa-solid fa-bars-progress"></i> Projects</NavLink>
             <NavLink to="/contact" className={styles.NavLink}><i class="fa-solid fa-envelope"></i> Contact</NavLink>
-            <NavLink to="/resume" className={styles.NavLink}><i class="fa-solid fa-download"></i> Resume</NavLink>
+            <Link to="../assets/dan-pearce-cv.pdf" target="_blank" download className={styles.NavLink}><i class="fa-solid fa-download"></i></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
