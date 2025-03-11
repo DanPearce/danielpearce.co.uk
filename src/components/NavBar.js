@@ -9,7 +9,7 @@ import styles from '../styles/NavBar.module.css'
 const navText = (
   <>
     <Navbar.Text className={styles.NavBarText}>
-      Software Developer
+      <h5>Software Developer</h5>
     </Navbar.Text>
   </>
 )
@@ -22,7 +22,7 @@ const NavBar = () => {
           <Navbar.Brand><img src={header} className={styles.Logo} alt="logo" /></Navbar.Brand>
         </NavLink>
         {navText}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className={styles.Toggle} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-start">
             <NavLink to="/aboutme" className={styles.NavLink}><i class="fa-solid fa-address-card"></i> About Me</NavLink>
