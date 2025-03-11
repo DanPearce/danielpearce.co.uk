@@ -1,5 +1,5 @@
 import header from './assets/DANPEARCE.png';
-import styles from './assets/styles/App.module.css';
+import styles from './styles/App.module.css';
 
 function App() {
   return (
