@@ -25,8 +25,8 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-start">
-            <NavLink to="/projects" className={styles.NavLink}><i class="fa-solid fa-bars-progress"></i> Projects</NavLink>
             <NavLink to="/aboutme" className={styles.NavLink}><i class="fa-solid fa-address-card"></i> About Me</NavLink>
+            <NavLink to="/projects" className={styles.NavLink}><i class="fa-solid fa-bars-progress"></i> Projects</NavLink>
             <NavLink to="/contact" className={styles.NavLink}><i class="fa-solid fa-envelope"></i> Contact</NavLink>
             <NavLink to="/resume" className={styles.NavLink}><i class="fa-solid fa-download"></i> Resume</NavLink>
           </Nav>

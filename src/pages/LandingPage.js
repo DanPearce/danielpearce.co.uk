@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/LandingPage.module.css'
-import avatar from '../assets/avatar.jpeg'
+import avatar from '../assets/avatar.jpg'
 import { NavLink } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 
