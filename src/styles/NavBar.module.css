@@ -1,22 +1,29 @@
 /* NavBar Styling */
 .NavBar {
-  background-color: #1c1413;
+  background-color: #153943;
 }
 
 .NavBar a {
   color: #fefdfd;
 }
 
+.NavBarText {
+  color: #fefdfd;
+  white-space: nowrap;
+  font-size: small;
+}
+
 .NavBar a:hover{
-  color: #153943;
+  transform: translateY(-2px);
 }
 
 .Logo {
-  width: 25%;
+  width: 250px;
   height: auto;
 }
 
 .NavLink {
   padding: 15px;
   text-decoration: none;
+  white-space: nowrap;
 }
