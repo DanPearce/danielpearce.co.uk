@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Container from 'react-bootstrap/Container'
+import styles from '../styles/ContactForm.module.css'
 
 const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -36,16 +38,18 @@ const ContactForm = () => {
     e.target.reset();
   };
   return (
-    <form onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" disabled={isSubmitting} />
-      {stateMessage && <p>{stateMessage}</p>}
-    </form>
+    <Container className={styles.FormContainer}>
+      <form onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" disabled={isSubmitting} />
+        {stateMessage && <p>{stateMessage}</p>}
+      </form>
+    </Container>
   );
 };
 export default ContactForm;
