@@ -29,7 +29,7 @@ const NavBar = () => {
             <NavLink to="/aboutme" className={styles.NavLink}><i class="fa-solid fa-address-card"></i> About Me</NavLink>
             <NavLink to="/projects" className={styles.NavLink}><i class="fa-solid fa-bars-progress"></i> Projects</NavLink>
             <NavLink to="/contact" className={styles.NavLink}><i class="fa-solid fa-envelope"></i> Contact</NavLink>
-            <Link to="../assets/dan-pearce-cv.pdf" target="_blank" download className={styles.NavLink}><i class="fa-solid fa-download"></i></Link>
+            <Link to="src/assets/dan-pearce-cv.pdf" target="_blank" download className={styles.NavLink}><i class="fa-solid fa-download"></i></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

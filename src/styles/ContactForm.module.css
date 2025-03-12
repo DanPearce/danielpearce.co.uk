@@ -25,6 +25,9 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #fefdfd;
+  color: #153943;
+  border: 2px solid;
+  border-color: #153943;
 }
 
 .FormContainer {
