@@ -1,6 +1,7 @@
 import React from 'react'
 import header from '../assets/DANPEARCE.png';
 import { NavLink } from 'react-router-dom';
+import useClickOutsideToggle from '../hooks/useClickOutsideToggle';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -16,14 +17,15 @@ const navText = (
 )
 
 const NavBar = () => {
+  const { expanded, setExpanded, ref} = useClickOutsideToggle();
   return (
-    <Navbar expand="lg" fixed="top" className={styles.NavBar}>
+    <Navbar expand="lg" fixed="top" className={styles.NavBar} expanded={expanded}>
       <Container>
         <NavLink to='/'>
           <Navbar.Brand><img src={header} className={styles.Logo} alt="logo" /></Navbar.Brand>
         </NavLink>
         {navText}
-        <Navbar.Toggle className={styles.Toggle} aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className={styles.Toggle} aria-controls="basic-navbar-nav" ref={ref} onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-start">
             <NavLink to="/aboutme" className={styles.NavLink}><i class="fa-solid fa-address-card"></i> About Me</NavLink>
