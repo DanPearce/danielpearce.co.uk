@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/danielpearce.co.uk/static/css/main.386aa908.css",
+    "main.js": "/danielpearce.co.uk/static/js/main.d388305c.js",
+    "static/js/453.55363ac7.chunk.js": "/danielpearce.co.uk/static/js/453.55363ac7.chunk.js",
+    "static/media/BS.png": "/danielpearce.co.uk/static/media/BS.0e3311721402c8f91f12.png",
+    "static/media/kc.png": "/danielpearce.co.uk/static/media/kc.75f7576808da8de18bcf.png",
+    "static/media/avatar.jpg": "/danielpearce.co.uk/static/media/avatar.1b945bcb95fae80726cf.jpg",
+    "static/media/nexus.png": "/danielpearce.co.uk/static/media/nexus.0c04fb5a2993c3c062b2.png",
+    "static/media/tf.png": "/danielpearce.co.uk/static/media/tf.44eee0f7227001e6add2.png",
+    "static/media/nexus_drf.png": "/danielpearce.co.uk/static/media/nexus_drf.e80f4eade46181c14ff0.png",
+    "static/media/CCQ.png": "/danielpearce.co.uk/static/media/CCQ.e972e030a23c98f44254.png",
+    "index.html": "/danielpearce.co.uk/index.html",
+    "main.386aa908.css.map": "/danielpearce.co.uk/static/css/main.386aa908.css.map",
+    "main.d388305c.js.map": "/danielpearce.co.uk/static/js/main.d388305c.js.map",
+    "453.55363ac7.chunk.js.map": "/danielpearce.co.uk/static/js/453.55363ac7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.386aa908.css",
+    "static/js/main.d388305c.js"
+  ]
+}
